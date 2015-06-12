@@ -1,0 +1,6 @@
+- name: Warrior
+  hotkey: a
+- name: Priest
+  hotkey: b
+- name: Rogue
+  hotkey: c
