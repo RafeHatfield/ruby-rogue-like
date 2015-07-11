@@ -2,7 +2,11 @@ title:
   name: Phantasmagorical Dalliances; a NetHack tribute
   by: by a someone who should know better
   pick_random: "Shall I randomize your fate? [ynq]"
-  
+
 role:
   choosing: Choosing Role
   instructions: Pick a role for your character
+
+race:
+  choosing: Choosing Race
+  instructions: Pick the race of your %role

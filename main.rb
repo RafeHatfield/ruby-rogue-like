@@ -11,6 +11,7 @@ $LOAD_PATH.unshift '.' # makes requiring files easier
 
 require 'curses'
 require 'ui'
+require 'race'
 require 'game'
 require 'data_loader'
 require 'messages'

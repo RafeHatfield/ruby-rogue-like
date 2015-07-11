@@ -3,7 +3,7 @@ require 'role'
 require 'selection_screen'
 
 class Game
-  TRAITS = [Role]
+  TRAITS = [Role, Race]
 
   def initialize
     @ui = UI.new
