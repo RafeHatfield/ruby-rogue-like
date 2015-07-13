@@ -37,7 +37,7 @@ class SelectionScreen
     @instructions ||= interpolate(messages[:instructions])
   end
 
-  def interpolate
+  def interpolate(message)
     message.gsub(/%(\w+)/) { options[$1.to_sym] }
   end
 
